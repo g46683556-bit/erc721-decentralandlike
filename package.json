@@ -1,0 +1,15 @@
+{
+  "name": "erc721-decentraland",
+  "version": "1.0.0",
+  "description": "Proyecto ERC721 inspirado en Decentraland",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network sepolia"
+  },
+  "devDependencies": {
+    "hardhat": "^2.22.0",
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "@openzeppelin/contracts": "^4.9.0",
+    "ethers": "^5.7.2"
+  }
+}
